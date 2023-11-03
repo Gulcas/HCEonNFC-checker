@@ -3,7 +3,6 @@ package com.example.hceonnfc;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
@@ -13,7 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String LOG_TAG = "Zalkom_log";
+    public static final String LOG_TAG = "Custom_Log_tag";
     private static Toast toast;
     private static boolean isToastVisible = false;
 

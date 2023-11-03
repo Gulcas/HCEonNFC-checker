@@ -9,10 +9,10 @@
     android:padding="20dp">
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_gravity="center"
-        android:src="@drawable/whit"
+        android:src="@drawable/customer"
         android:contentDescription="@string/logo" />
 
     <TextView
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:gravity="center"
+        android:layout_gravity="center"
         android:hint="@string/dummy_txt"
         android:textColor="#ff6900"
         android:textSize="20sp"
